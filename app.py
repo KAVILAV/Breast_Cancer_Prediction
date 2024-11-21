@@ -4,7 +4,7 @@ import pickle
 import os
 
 # Load the pre-trained model
-MODEL_PATH = 'models/model.pkl'  # Update this path if necessary
+MODEL_PATH = 'model.h5'  # Update this path if necessary
 
 # Check if the model file exists
 if os.path.exists(MODEL_PATH):
